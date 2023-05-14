@@ -1,0 +1,50 @@
+/* .home{
+    height: 100%;
+} */
+.banner-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading h1{
+    font-size: 50px;
+}
+.heading p{
+    font-size: 13px;
+    margin-top: 50px;
+}
+img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.input{
+    max-width: 1000px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./background.webp");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+input{
+    width: 550px;
+    height: 25px;
+    border: none;
+    border-radius: 7px;
+    padding: 0 20px;
+    outline: none;
+}
+button{
+    background-color: rgb(10, 227, 154);
+    border-radius: 15px;
+    padding: 3px 6px;
+    border: 1px solid grey;
+    color: white;
+    cursor: pointer;
+}

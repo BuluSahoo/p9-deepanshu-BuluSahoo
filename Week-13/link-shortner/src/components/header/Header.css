@@ -1,0 +1,19 @@
+.Contaner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    
+}
+.feature {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+}
