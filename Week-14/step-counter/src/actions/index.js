@@ -6,3 +6,6 @@ export const incrementStep = () => ({
     type: 'RESET_STEPS',
   });
   
+  export const decreamentStep = () => ({
+    type: 'DECREAMENT_STEP',
+  });

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { incrementStep, resetSteps } from './actions';
+import { incrementStep, resetSteps, decreamentStep } from './actions';
 import "./index.css"
 
 const StepCounter = () => {
@@ -9,6 +9,9 @@ const StepCounter = () => {
 
   const handleIncrement = () => {
     dispatch(incrementStep());
+  };
+  const handleDecreament = () => {
+    dispatch(decreamentStep());
   };
 
   const handleReset = () => {
@@ -21,6 +24,7 @@ const StepCounter = () => {
       <div className='btns' >
         <button onClick={handleIncrement} className='add'>Add a Step</button>
         <button onClick={handleReset} className='reset'>Reset Steps</button>
+        <button onClick={handleDecreament} className='add'>Remove a Step</button>
       </div>
       
     </div>
